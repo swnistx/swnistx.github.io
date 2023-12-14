@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img class="bg" src="fotos/bg.png" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">AURUM LUXE</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="fotos/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Productos">Nuestros productos</a></li>
+                    <li><a href="#APP">Nuestra app</a></li>
+                    <li><a href="https://w.app/AURUMLUXE" target="_blank">Contáctanos</li>
+
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="fotos/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Modelo</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1> <span>Aurum Luxe</span> está encantado de tenerte aquí</h1>
+                <p>
+
+                    En Aurum Luxe, nos complace sinceramente darle la bienvenida a nuestro exclusivo mundo de
+                    joyas finas. Cada pieza que ofrecemos es más que un simple accesorio; es una obra maestra que
+                    refleja la belleza, la sofisticación y la artesanía excepcional.
+
+                </p>
+                <a href="https://w.app/WDPnhM" class="btn-1">Información</a>
+            </div>
+            <div class="header-img">
+                <img src="fotos/bg-1.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <section class="colecciones container">
+        <h2>Colecciones</h2>
+        <p>
+            Nuestras colecciones de joyas para tu disfrute y placer
+        </p>
+
+        <div class="colecciones-content">
+
+            <div class="colecciones-1">
+                <img src="fotos/coleccion-1.png" alt="">
+                <h3>Anillos</h3>
+            </div>
+
+            <div class="colecciones-1">
+                <img src="fotos/coleccion-2.png" alt="">
+                <h3>Collares</h3>
+            </div>
+
+            <div class="colecciones-1">
+                <img src="fotos/coleccion-3.png" alt="">
+                <h3>Pulseras</h3>
+            </div>
+
+            <div class="colecciones-1">
+                <img src="fotos/coleccion-4.png" alt="">
+                <h3>Pendientes</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="info">
+        <img class="bg-2" src="fotos/bg-2.png" alt="">
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="fotos/modelo-bg-1.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>La mejor calidad en las mejores joyas</h2>
+                <p>
+                    Explora nuestra colección cuidadosamente seleccionada, donde encontrarás joyas únicas que cuentan
+                    historias atemporales. Desde deslumbrantes diamantes hasta resplandecientes gemas, cada artículo
+                    está diseñado para agregar un toque de lujo y distinción a tu estilo personal.
+                </p>
+                <a href="https://concepto.de/oro/" class="btn-1">Información</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="Productos">
+        <section id="product">
+            <main class="products container">
+
+                <h2>Productos</h2>
+
+                <div class="box-container" id="lista-1">
+
+                    <div class="box">
+                        <img src="fotos/anillo-1.png" alt="">
+                        <div class="products-txt">
+                            <h3>Aurelia Brillante</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/anillo-2.png" alt="">
+                        <div class="products-txt">
+                            <h3>Radiante Sol de Oro</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 270</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/anillo-3.png" alt="">
+                        <div class="products-txt">
+                            <h3>Círculo Dorado Sereno</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 280</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/anillo-4.png" alt="">
+                        <div class="products-txt">
+                            <h3>Dulce Corazón</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 250</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/arete-1.png" alt="">
+                        <div class="products-txt">
+                            <h3>Brillo de Oro</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 199</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/arete-2.png" alt="">
+                        <div class="products-txt">
+                            <h3>Aros Encanto</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 177</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/arete-3.png" alt="">
+                        <div class="products-txt">
+                            <h3>Corazón Radiante</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 190</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/arete-4.png" alt="">
+                        <div class="products-txt">
+                            <h3>Resplandor Celestial</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 165</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/collar-1.png" alt="">
+                        <div class="products-txt">
+                            <h3>Beretta</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 194</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/collar-2.png" alt="">
+                        <div class="products-txt">
+                            <h3>Sunset</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 199</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/collar-3.png" alt="">
+                        <div class="products-txt">
+                            <h3>Lágrimas del Sol</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 185</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/collar-4.png" alt="">
+                        <div class="products-txt">
+                            <h3>Confidence</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 164</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/pulsera-1.png" alt="">
+                        <div class="products-txt">
+                            <h3>PULSERA 1</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 194</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/pulsera-2.png" alt="">
+                        <div class="products-txt">
+                            <h3>PULSERA 2</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 99</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/pulsera-3.png" alt="">
+                        <div class="products-txt">
+                            <h3>Pulsera Hijos del Sol</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 99</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="15">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="fotos/pulsera-4.png" alt="">
+                        <div class="products-txt">
+                            <h3>PULSERA 4</h3>
+                            <p>BY AURUM LUXE</p>
+                            <p class="precio">S/. 99</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="16">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="btn-2" id="load-more">Cargar más</div>
+
+            </main>
+        </section>
+    </section>
+
+    <section class="app container" id="APP">
+
+        <div class="app-txt">
+
+            <h2>Descarga nuestra app, descubre ofertas.</h2>
+            <p>
+                En Aurum Luxe, nos complace presentarte nuestra aplicación móvil exclusiva, diseñada para
+                llevar la elegancia de nuestras joyas directamente a la palma de tu mano. Con nuestra app, acceder a la
+                perfección en joyería nunca ha sido tan fácil y conveniente.
+            </p>
+            <div class="descarga">
+                <img src="fotos/store1.png" alt="">
+                <img src="fotos/store2.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="app-img">
+            <img src="fotos/app.png" alt="">
+        </div>
+
+    </section>
+
+
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>AURUM LUXE</h3>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="https://www.google.com/maps/place/I.E.+Mercedes+Cabello+de+Carbonera/@-17.6334393,-71.3384039,19.25z/data=!4m6!3m5!1s0x91445b74d28d543d:0x948deb9b62b97bdf!8m2!3d-17.633041!4d-71.3385522!16s%2Fg%2F1tghf6c8?authuser=0&entry=ttu">Dirección</a>
+                    </li>
+                    <li><a href="#">Horarios de Atención</a></li>
+                    <li><a href="https://www.facebook.com/mercedes.cabellodecarbonera.3">Redes Sociales</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>SOBRE</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/mercedes.cabellodecarbonera.3">Sobre nosotros</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>¿Quién soy?</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/swnistx/">Nicole Silva Zegarra</a></li>
+                    <li><a href="https://www.instagram.com/promf_2023/">5to F</a></li>
+                    <li><a href="#">Educación para el Trabajo</a></li>
+                    <li><a href="https://www.facebook.com/mercedes.cabellodecarbonera.3">Joas Mendoza Ventura</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Descarga nuestra app</h3>
+                <div class="descarga">
+                    <img src="fotos/store1.png" alt="">
+                    <img src="fotos/store2.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
